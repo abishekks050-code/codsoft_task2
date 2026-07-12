@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Quiz Maker</title>
+<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+<div class="container">
+
+<div id="home">
+<h1>Online Quiz Maker</h1>
+<p>Test your knowledge with this quiz!</p>
+<button onclick="startQuiz()">Start Quiz</button>
+</div>
+
+<div id="quiz" class="hide">
+
+<h2 id="question"></h2>
+
+<div id="answer-buttons"></div>
+
+<button id="next-btn">Next</button>
+
+</div>
+
+<div id="result" class="hide">
+<h2>Your Score</h2>
+<h1 id="score"></h1>
+<button onclick="location.reload()">Play Again</button>
+</div>
+
+</div>
+
+<script src="script2.js"></script>
+
+</body>
+</html>
